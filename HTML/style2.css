@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+#padding-box{ /* 요소 안쪽 여백 조정 */
+    padding: 20px;
+}
+
+#margin-box{ /* 요소 바깥쪽 여백 조정 */
+    margin: 30px;
+}
