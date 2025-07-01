@@ -1,0 +1,33 @@
+.container{
+    display: flex;/*요소의 크기와 순서를 유연하게 배치하기 위함 */
+    gap: 50px;/* 행과 열 사이의 간격 조절 */
+}
+
+.container > div { /* container의 직속 자식들에게만 적용 */
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.box > div {
+    border: 1px solid black;
+}
+
+#row-box{
+    display:flex;
+    flex-direction: row; /* 한 줄처럼 배치 */
+    justify-content: center; /* 항목들을 중심 부분에 정렬 */
+}
+
+#column-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#center-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 교차축 방향 자식 요소 가운데 정렬 */
+}
