@@ -22,8 +22,7 @@
 .Name{
     display: flex;
     font-size: 100px;
-    font-weight: 500;
-    gap: 3px;
+    font-weight: bold;
 }
 
 .Name > div:nth-child(6){      
@@ -45,6 +44,7 @@
     border: 1px solid rgb(226, 226, 226);
     border-radius: 20px;
     font-size: 16px;
+    box-shadow:  2px 2px 5px rgba(228, 215, 215, 0.79);
 }
 
 .btn-row{
