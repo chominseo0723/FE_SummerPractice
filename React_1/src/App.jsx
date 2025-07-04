@@ -1,22 +1,28 @@
 import React from 'react'
 
-const App = () => {
-  const user = { //user 객체 생성
-    firstName: "조",
-    lastName: "민서",
-    major: "컴퓨터공학과"
-  }
+const MyComponent = () => {
+  return(
+    <div>
+      <h1>Hello, I'm a functional component!</h1>
+      <p>This is my content</p>
+    </div>
+  )
+}
 
- const formatName = (user) => {
-    return user.firstName + user.lastName
- }
-
+function CustomComponent(){
   return (
     <div>
-      {/* formatName 사용X : <h1>안녕하세요, {user.firstName + user.lastName}님!</h1> */}
-      <h1>안녕하세요 {formatName(user)}님!</h1>
-      <p> 전공: {user.major}</p>
-      <h3>Thank you for visiting my Web Site</h3>
+      <p>This is a custom component</p>
+    </div>
+  )
+}
+
+const App = () => { /*실제러 실행되는 컴포넌트는 App 하나 */
+  return (
+    <div>
+      <h1>Welcome to My App</h1>
+      <CustomComponent/>
+      <MyComponent/>
     </div>
   )
 }
