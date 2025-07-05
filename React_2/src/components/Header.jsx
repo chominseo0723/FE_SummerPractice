@@ -10,7 +10,7 @@ const Header = () => {
           className="flex-1 px-5 outline-none text-gray-700"
         />
         <span className="flex items-center justify-center h-full w-14
-                       bg-gray-100 border-l">
+                       bg-gray-200 border-l">
           <CiSearch size={24} className="text-gray-500" />
         </span>
       </div>
