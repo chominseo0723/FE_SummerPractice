@@ -6,13 +6,10 @@ import Header from './components/Header'
 const Layout = () => {
   return (
     <div className="flex flex-col h-screen">
-      {/* 상단 헤더 */}
       <Header />
-
-      {/* 하단 영역: Navbar(왼쪽) + Outlet(오른쪽) */}
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1">
         <Navbar />
-        <main className="flex-1 overflow-y-auto p-4">
+        <main className="flex-">
           <Outlet />
         </main>
       </div>

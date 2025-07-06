@@ -3,28 +3,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return ( 
-   <div className="flex flex-col h-screen w-64 bg-gray-100">
-  <div className="p-4 text-lg font-bold">Logo</div>
-  <nav>
-    <ul className="space-y-2">
-      <li>
-        <a href="#" className="block py-2 px-4 hover:bg-gray-200">
-          메뉴 1
-        </a>
-      </li>
-      <li>
-        <a href="#" className="block py-2 px-4 hover:bg-gray-200">
-          메뉴 2
-        </a>
-      </li>
-      <li>
-        <a href="#" className="block py-2 px-4 hover:bg-gray-200">
-          메뉴 3
-        </a>
-      </li>
-    </ul>
-  </nav>
-</div>
+    <nav>
+      <div className="flex flex-col h-screen w-40 gap-10">
+        <Link to='/' className="block px-7 hover:bg-gray-200">홈</Link>
+        <Link to='shorts' className="block px-7 hover:bg-gray-200">Shorts</Link>
+        <Link to='subscribe' className="block px-7 hover:bg-gray-200">구독</Link>
+        <Link to='mypages' className="block px-7 hover:bg-gray-200">내 페이지</Link>
+   </div>
+    </nav>
   );
 };
 
