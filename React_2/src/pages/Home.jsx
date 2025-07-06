@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex flex-row gap-4 ml-72 mt-2'>
+    <div className='flex flex-row gap-4 ml-80 mt-2'>
         <div className='border rounded-lg px-2 py-1 bg-gray-100 hover:bg-gray-900 hover:text-white'>전체</div>
         <div className='border rounded-lg px-2 py-1 bg-gray-100 hover:bg-gray-900 hover:text-white'>음악</div>
         <div className='border rounded-lg px-2 py-1 bg-gray-100 hover:bg-gray-900 hover:text-white'>믹스</div>
