@@ -9,7 +9,7 @@ import image8 from './assets/image8.png';
 import image9 from './assets/image9.png';
 import image10 from './assets/image10.png';
 import image11 from './assets/image11.png';
-
+import image12 from './assets/image12.png';
 export const categorys = [
   {
     id: 1,
@@ -98,5 +98,15 @@ export const categorys = [
     view: "조회수 7.6만회",
     date: "2일 전",
     image: image11
+  },
+
+  {
+    id: 12,
+    title: "내게 남은 지식은 '과학'뿐",
+    owner: "키텔 KITTLE",
+    view: "조회수 4.8만회",
+    date: "3개월 전",
+    image: image12
   }
+
 ];
